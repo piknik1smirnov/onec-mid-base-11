@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b9ef44c-8409-4484-a2ff-356fe6ee01cd">
+  <name>ДЗ_РаботаСФормами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с формами (ДЗ)</value>
+  </synonym>
+  <comment>Добавил Смирнов П.В.</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
