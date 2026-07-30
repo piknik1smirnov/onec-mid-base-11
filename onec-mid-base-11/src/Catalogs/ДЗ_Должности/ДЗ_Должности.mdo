@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="698302a9-7d9c-4514-8cfd-d260eea76f14">
+  <producedTypes>
+    <objectType typeId="b37eec01-e837-4947-93c6-c6fd555933bb" valueTypeId="0daabf11-12db-4485-80ad-749287570004"/>
+    <refType typeId="6d867f83-e97b-47c5-a319-a5aa1f9f847c" valueTypeId="73d32ab7-8b4e-41fe-9568-a9587bff4e79"/>
+    <selectionType typeId="33651fde-2d6c-40ca-90a8-af21214a694f" valueTypeId="661f2289-d301-4e77-8140-1638b039492c"/>
+    <listType typeId="67763c88-0bb1-4f5f-a479-e71907d3c2d4" valueTypeId="62ce6e44-4a74-4129-b81d-37e9a314bced"/>
+    <managerType typeId="2041483f-0078-43a7-9be1-85f1b7183a4e" valueTypeId="b7f5c3e6-921b-4f77-9a44-53eb38f15b15"/>
+  </producedTypes>
+  <name>ДЗ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности (ДЗ)</value>
+  </synonym>
+  <comment>Добавил Смирнов П.В.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗ_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗ_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность (ДЗ)</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f50c55cb-a7c5-43fe-b983-a0335382951c">
+      <name>ГенеральныйДиректор</name>
+      <description>Генеральный директор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="9d393767-7b4c-44ff-90e2-24bc8df5c245">
+      <name>НачальникОтдела</name>
+      <description>Начальник отдела</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="b749fa54-0ab0-4b13-8b62-8bb4bc9b92f6">
+      <name>Менеджер</name>
+      <description>Менеджер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
